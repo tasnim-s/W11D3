@@ -1,6 +1,6 @@
 import {
     RECEIVE_CURRENT_USER
-} from "../action/session"
+} from "../actions/session"
 
 
 export default (state, action) => {
@@ -12,3 +12,6 @@ export default (state, action) => {
             return state;
     }
 }
+
+
+
